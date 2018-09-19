@@ -1,0 +1,192 @@
+2018-09-19 12:56:20 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2018-09-19 12:56:20 Bitcoindiamond version v1.1.0
+2018-09-19 12:56:20 InitParameterInteraction: parameter interaction: -whitelistforcerelay=1 -> setting -whitelistrelay=1
+2018-09-19 12:56:20 Validating signatures for all blocks.
+2018-09-19 12:56:20 Default data directory /.bitcoindiamond
+2018-09-19 12:56:20 Using data directory /data/node-bob/regtest
+2018-09-19 12:56:20 Using config file /data/node-bob/bitcoin.conf
+2018-09-19 12:56:20 Using at most 125 automatic connections (1048576 file descriptors available)
+2018-09-19 12:56:20 Using 32 MiB out of 32 requested for signature cache, able to store 1048576 elements
+2018-09-19 12:56:20 Using 2 threads for script verification
+2018-09-19 12:56:20 HTTP: creating work queue of depth 16
+2018-09-19 12:56:20 Config options rpcuser and rpcpassword will soon be deprecated. Locally-run instances may remove rpcuser to use cookie-based auth, or may be replaced with rpcauth. Please see share/rpcuser for rpcauth auth generation.
+2018-09-19 12:56:20 HTTP: starting 4 worker threads
+2018-09-19 12:56:20 Using BerkeleyDB version Berkeley DB 4.8.30: (April  9, 2010)
+2018-09-19 12:56:20 Using wallet wallet.dat
+2018-09-19 12:56:20 init message: Verifying wallet...
+2018-09-19 12:56:20 CDBEnv::Open: LogDir=/data/node-bob/regtest/database ErrorFile=/data/node-bob/regtest/db.log
+2018-09-19 12:56:20 scheduler thread start
+2018-09-19 12:56:20 Bound to [::]:18002
+2018-09-19 12:56:20 Bound to 0.0.0.0:18002
+2018-09-19 12:56:20 Cache configuration:
+2018-09-19 12:56:20 * Using 56.2MiB for block index database
+2018-09-19 12:56:20 * Using 8.0MiB for chain state database
+2018-09-19 12:56:20 * Using 385.8MiB for in-memory UTXO set (plus up to 286.1MiB of unused mempool space)
+2018-09-19 12:56:20 init message: Loading block index...
+2018-09-19 12:56:20 Opening LevelDB in /data/node-bob/regtest/blocks/index
+2018-09-19 12:56:20 Opened LevelDB successfully
+2018-09-19 12:56:20 Using obfuscation key for /data/node-bob/regtest/blocks/index: 0000000000000000
+2018-09-19 12:56:20 Opening LevelDB in /data/node-bob/regtest/chainstate
+2018-09-19 12:56:20 Opened LevelDB successfully
+2018-09-19 12:56:20 Wrote new obfuscate key for /data/node-bob/regtest/chainstate: f4d7b506191637c0
+2018-09-19 12:56:20 Using obfuscation key for /data/node-bob/regtest/chainstate: f4d7b506191637c0
+2018-09-19 12:56:20 LoadBlockIndexDB: last block file = 0
+2018-09-19 12:56:20 LoadBlockIndexDB: last block file info: CBlockFileInfo(blocks=0, size=0, heights=0...0, time=1970-01-01...1970-01-01)
+2018-09-19 12:56:20 Checking all blk files are present...
+2018-09-19 12:56:20 LoadBlockIndexDB: transaction index disabled
+2018-09-19 12:56:20 Initializing databases...
+2018-09-19 12:56:20 Pre-allocating up to position 0x1000000 in blk00000.dat
+2018-09-19 12:56:20 init message: Verifying blocks...
+2018-09-19 12:56:20  block index             168ms
+2018-09-19 12:56:20 init message: Loading wallet...
+2018-09-19 12:56:20 nFileVersion = 1010000
+2018-09-19 12:56:20 Keys: 0 plaintext, 0 encrypted, 0 w/ metadata, 0 total
+2018-09-19 12:56:20 Performing wallet upgrade to 60000
+2018-09-19 12:56:20 keypool added key 1, size=1
+2018-09-19 12:56:20 keypool added key 2, size=2
+2018-09-19 12:56:20 keypool added key 3, size=3
+2018-09-19 12:56:20 keypool added key 4, size=4
+2018-09-19 12:56:20 keypool added key 5, size=5
+2018-09-19 12:56:20 keypool added key 6, size=6
+2018-09-19 12:56:20 keypool added key 7, size=7
+2018-09-19 12:56:20 keypool added key 8, size=8
+2018-09-19 12:56:20 keypool added key 9, size=9
+2018-09-19 12:56:20 keypool added key 10, size=10
+2018-09-19 12:56:20 keypool added key 11, size=11
+2018-09-19 12:56:20 keypool added key 12, size=12
+2018-09-19 12:56:20 keypool added key 13, size=13
+2018-09-19 12:56:20 keypool added key 14, size=14
+2018-09-19 12:56:20 keypool added key 15, size=15
+2018-09-19 12:56:20 keypool added key 16, size=16
+2018-09-19 12:56:20 keypool added key 17, size=17
+2018-09-19 12:56:20 keypool added key 18, size=18
+2018-09-19 12:56:20 keypool added key 19, size=19
+2018-09-19 12:56:20 keypool added key 20, size=20
+2018-09-19 12:56:20 keypool added key 21, size=21
+2018-09-19 12:56:20 keypool added key 22, size=22
+2018-09-19 12:56:21 keypool added key 23, size=23
+2018-09-19 12:56:21 keypool added key 24, size=24
+2018-09-19 12:56:21 keypool added key 25, size=25
+2018-09-19 12:56:21 keypool added key 26, size=26
+2018-09-19 12:56:21 keypool added key 27, size=27
+2018-09-19 12:56:21 keypool added key 28, size=28
+2018-09-19 12:56:21 keypool added key 29, size=29
+2018-09-19 12:56:21 keypool added key 30, size=30
+2018-09-19 12:56:21 keypool added key 31, size=31
+2018-09-19 12:56:21 keypool added key 32, size=32
+2018-09-19 12:56:21 keypool added key 33, size=33
+2018-09-19 12:56:21 keypool added key 34, size=34
+2018-09-19 12:56:21 keypool added key 35, size=35
+2018-09-19 12:56:21 keypool added key 36, size=36
+2018-09-19 12:56:21 keypool added key 37, size=37
+2018-09-19 12:56:21 keypool added key 38, size=38
+2018-09-19 12:56:21 keypool added key 39, size=39
+2018-09-19 12:56:21 keypool added key 40, size=40
+2018-09-19 12:56:21 keypool added key 41, size=41
+2018-09-19 12:56:21 keypool added key 42, size=42
+2018-09-19 12:56:21 keypool added key 43, size=43
+2018-09-19 12:56:21 keypool added key 44, size=44
+2018-09-19 12:56:21 keypool added key 45, size=45
+2018-09-19 12:56:21 keypool added key 46, size=46
+2018-09-19 12:56:21 keypool added key 47, size=47
+2018-09-19 12:56:21 keypool added key 48, size=48
+2018-09-19 12:56:21 keypool added key 49, size=49
+2018-09-19 12:56:21 keypool added key 50, size=50
+2018-09-19 12:56:21 keypool added key 51, size=51
+2018-09-19 12:56:21 keypool added key 52, size=52
+2018-09-19 12:56:21 keypool added key 53, size=53
+2018-09-19 12:56:21 keypool added key 54, size=54
+2018-09-19 12:56:21 keypool added key 55, size=55
+2018-09-19 12:56:21 keypool added key 56, size=56
+2018-09-19 12:56:21 keypool added key 57, size=57
+2018-09-19 12:56:21 keypool added key 58, size=58
+2018-09-19 12:56:21 keypool added key 59, size=59
+2018-09-19 12:56:22 keypool added key 60, size=60
+2018-09-19 12:56:22 keypool added key 61, size=61
+2018-09-19 12:56:22 keypool added key 62, size=62
+2018-09-19 12:56:22 keypool added key 63, size=63
+2018-09-19 12:56:22 keypool added key 64, size=64
+2018-09-19 12:56:22 keypool added key 65, size=65
+2018-09-19 12:56:22 keypool added key 66, size=66
+2018-09-19 12:56:22 keypool added key 67, size=67
+2018-09-19 12:56:22 keypool added key 68, size=68
+2018-09-19 12:56:22 keypool added key 69, size=69
+2018-09-19 12:56:22 keypool added key 70, size=70
+2018-09-19 12:56:22 keypool added key 71, size=71
+2018-09-19 12:56:22 keypool added key 72, size=72
+2018-09-19 12:56:22 keypool added key 73, size=73
+2018-09-19 12:56:22 keypool added key 74, size=74
+2018-09-19 12:56:22 keypool added key 75, size=75
+2018-09-19 12:56:22 keypool added key 76, size=76
+2018-09-19 12:56:22 keypool added key 77, size=77
+2018-09-19 12:56:22 keypool added key 78, size=78
+2018-09-19 12:56:23 keypool added key 79, size=79
+2018-09-19 12:56:23 keypool added key 80, size=80
+2018-09-19 12:56:23 keypool added key 81, size=81
+2018-09-19 12:56:23 keypool added key 82, size=82
+2018-09-19 12:56:23 keypool added key 83, size=83
+2018-09-19 12:56:23 keypool added key 84, size=84
+2018-09-19 12:56:23 keypool added key 85, size=85
+2018-09-19 12:56:23 keypool added key 86, size=86
+2018-09-19 12:56:23 keypool added key 87, size=87
+2018-09-19 12:56:23 keypool added key 88, size=88
+2018-09-19 12:56:23 keypool added key 89, size=89
+2018-09-19 12:56:23 keypool added key 90, size=90
+2018-09-19 12:56:23 keypool added key 91, size=91
+2018-09-19 12:56:23 keypool added key 92, size=92
+2018-09-19 12:56:23 keypool added key 93, size=93
+2018-09-19 12:56:23 keypool added key 94, size=94
+2018-09-19 12:56:23 keypool added key 95, size=95
+2018-09-19 12:56:23 keypool added key 96, size=96
+2018-09-19 12:56:23 keypool added key 97, size=97
+2018-09-19 12:56:23 keypool added key 98, size=98
+2018-09-19 12:56:23 keypool added key 99, size=99
+2018-09-19 12:56:23 keypool added key 100, size=100
+2018-09-19 12:56:23 keypool added key 101, size=101
+2018-09-19 12:56:23 keypool reserve 1
+2018-09-19 12:56:23 keypool keep 1
+2018-09-19 12:56:23  wallet                 3059ms
+2018-09-19 12:56:23 setKeyPool.size() = 100
+2018-09-19 12:56:23 mapWallet.size() = 0
+2018-09-19 12:56:23 mapAddressBook.size() = 1
+2018-09-19 12:56:23 UpdateTip: new best=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 powhash=0f9188f13cb7b2c71f2a335e3a4fc328bf5beb436012afca590b1a11466e2206 height=0 version=0x00000001 log2_work=1 tx=1 date='2011-02-02 23:16:42' progress=1.000000 cache=0.0MiB(0tx)
+2018-09-19 12:56:23 Failed to open mempool file from disk. Continuing anyway.
+2018-09-19 12:56:23 mapBlockIndex.size() = 1
+2018-09-19 12:56:23 nBestHeight = 0
+2018-09-19 12:56:23 init message: Loading addresses...
+2018-09-19 12:56:23 ERROR: Read: Failed to open file /data/node-bob/regtest/peers.dat
+2018-09-19 12:56:23 Invalid or missing peers.dat; recreating
+2018-09-19 12:56:23 torcontrol thread start
+2018-09-19 12:56:23 init message: Loading banlist...
+2018-09-19 12:56:23 ERROR: Read: Failed to open file /data/node-bob/regtest/banlist.dat
+2018-09-19 12:56:23 Invalid or missing banlist.dat; recreating
+2018-09-19 12:56:23 init message: Starting network threads...
+2018-09-19 12:56:23 init message: Done loading
+2018-09-19 12:56:23 net thread start
+2018-09-19 12:56:23 addcon thread start
+2018-09-19 12:56:23 dnsseed thread start
+2018-09-19 12:56:23 Loading addresses from DNS seeds (could take a while)
+2018-09-19 12:56:23 0 addresses found from DNS seeds
+2018-09-19 12:56:23 dnsseed thread exit
+2018-09-19 12:56:23 msghand thread start
+2018-09-19 12:56:23 opencon thread start
+2018-09-19 12:56:23 receive version message: /Bitcoin Diamond:1.1.0/: version 70015, blocks=0, us=[::]:0, peer=0
